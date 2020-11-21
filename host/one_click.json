@@ -1,9 +1,9 @@
 {
-  "name": "ping_pong",
-  "description": "Example host for native messaging",
-  "path": "/home/humair/ws/web/mdn/app/ping_pong.py",
+  "name": "one_click",
+  "description": "Cloudways One Click Tool",
+  "path": "/home/humair/ws/web/one_click/host/one_click.py",
   "type": "stdio",
   "allowed_origins": [
-    "chrome-extension://apiomlfpklhmcjboajambeankjmnkfbe/"
+    "chrome-extension://chlliibanlklfpninbclajoijeahoonl/"
   ]
 }
