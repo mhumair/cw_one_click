@@ -1,9 +1,9 @@
 {
   "name": "one_click",
   "description": "Cloudways One Click Tool",
-  "path": "/home/humair/ws/web/one_click/host/one_click.py",
+  "path": "Your_PATH/one_click.py",
   "type": "stdio",
   "allowed_origins": [
-    "chrome-extension://chlliibanlklfpninbclajoijeahoonl/"
+    "chrome-extension://Extension_ID_HERE/"
   ]
 }

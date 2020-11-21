@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
+  "name": "Cloudways One Click",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "Cloudways One Click Everything!",
   "permissions": ["nativeMessaging","activeTab", "declarativeContent", "storage"],
   "options_page": "options.html",
   "background": {
@@ -11,10 +11,10 @@
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "16": "images/one_click_16.png",
+      "32": "images/one_click_32.png",
+      "48": "images/one_click_48.png",
+      "128": "images/one_click_128.png"
     }
   },
   
@@ -26,10 +26,10 @@
     }
   ],
   "icons": {
-    "16": "images/get_started16.png",
-    "32": "images/get_started32.png",
-    "48": "images/get_started48.png",
-    "128": "images/get_started128.png"
+    "16": "images/one_click_16.png",
+    "32": "images/one_click_32.png",
+    "48": "images/one_click_48.png",
+    "128": "images/one_click_128.png"
   },
   "manifest_version": 2
 }

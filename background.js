@@ -34,7 +34,7 @@ chrome.runtime.onMessage.addListener(
     if("action" in request && request.action == 'openBrowser'){
        console.log(request.ip)
        console.log("Sending:  ping");
-       chrome.extension.getBackgroundPage().console.log('hello');
+      // chrome.extension.getBackgroundPage().console.log('hello');
        port.postMessage(request);
     }
   }

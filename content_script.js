@@ -1,4 +1,3 @@
-//alert(document.getElementById("angular-app").children[1].innerHTML);
 var ip = document.getElementsByClassName("srv-crid-sec1-row  srv-crid-sec1-row1 layout-wrap layout-align-start-center layout-row")[0].getElementsByClassName("clipboard ng-binding")[0].innerText;
 var username = document.getElementsByClassName("srv-crid-sec1-row  srv-crid-sec1-row2 layout-wrap layout-align-start-start layout-row")[0].getElementsByClassName("clipboard ng-binding")[0].innerText;
 var password = document.getElementsByClassName("srv-crid-sec1-row srv-crid-sec1-row3 layout-wrap layout-align-start-start layout-row")[0].getElementsByClassName("clipboard ng-binding")[0].innerText;
