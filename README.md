@@ -16,15 +16,15 @@
     interact
     ```
     Inorder for it to successfully trigger we need it installed. You may use the following command to install :
-
+    ```console
     $  sudo apt-get install expect
-
-    * ### Python3
+    ```
+* ### Python3
 
     The expect script is executed here by using a Python program that listens for data from the extension and than adds the necessary data to the script before executing it in a bash shell. The python program currently requires Python3 and isn't backwards compatible. You may use the following command to install :
-
+    ```console  
     $  sudo apt-get install python3
-
+    ```
 ## Installation Steps :
 
 To get an overview of the files and science behind the extension you may refer to the doc here : https://developer.chrome.com/extensions/overview
@@ -36,11 +36,11 @@ To get an overview of the files and science behind the extension you may refer t
     ![loading the extension](https://i.ibb.co/fGD1Lhb/2020-11-22-02-12.png)
 
 
-    * ### Updating the Host's manifest : 
+* ### Updating the Host's manifest : 
 
     Inorder for the extension communicates to the python program we need to update the following : 
 
-    * ### Update the Extension ID
+* ### Update the Extension ID
 
     Copy the extension ID which can be found here : 
 
@@ -48,16 +48,17 @@ To get an overview of the files and science behind the extension you may refer t
 
     And update it in the host/one_click.json where the Extension_ID_HERE placeholder is.
 
-    * ### Update the host path
+* ### Update the host path
 
     Similarily update the path of the python program in host/one_click.json where the Your_PATH placeholder is. The path can be found simply by running the $pwd in the cw_one_click host directory.  
 
-    * ### Move the manifest to the NativeMessagingHosts Directory :
+* ### Move the manifest to the NativeMessagingHosts Directory :
 
     The final step is to move the host's manifest to the location google-chrome extension's looks for by default if there are any relevant host program information an extension needs.
 
     To this simply run the command in the cw_one_click/host's directory :
-
+    ```console
     mv ./host/one_click.json ~/.config/google-chrome/NativeMessagingHosts/
+    ```
 
 Awesome!. You've just finished installing the cw_one_click for automating ssh logins. Keep track of this repo for some amazing upcoming feature and don't forget to star this repo :) 
