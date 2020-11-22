@@ -54,7 +54,7 @@ https://developer.chrome.com/extensions/overview
 
     By now you must have noticed that there are two manifests in our little set-up. The [extensions's manifest](https://github.com/mhumair/cw_one_click/blob/master/manifest.json) which contains the extension's information like the permissions and scripts to run and the other [host's manifest](https://github.com/mhumair/cw_one_click/blob/master/host/one_click.json) which provide's details about the host program that the extension will communicate too(By host we simply mean the machine the program will run on). In-order for the extension to communicate to the host program we need to update the following : 
 
-* ### Update the Extension ID
+    * ### Update the Extension ID :
 
     We will include the extension's ID in the python script to allow the desired extension to interact with it. Copy the extension ID which can be found here : 
 
