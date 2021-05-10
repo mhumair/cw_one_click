@@ -1,6 +1,6 @@
 # Cloudways One Click
 
-# How to Set Up + Demo
+## How to Set Up + Demo
 
 https://user-images.githubusercontent.com/39047231/117621155-b9752f00-b18a-11eb-9911-befabff683fd.mp4
 
