@@ -1,5 +1,10 @@
 # Cloudways One Click
 
+
+https://user-images.githubusercontent.com/39047231/117621155-b9752f00-b18a-11eb-9911-befabff683fd.mp4
+
+
+
 ## Overview :
 
 The extension is a quick utility to automate the ssh process of launching a terminal and moving back and forth in copying the username, password and IP address to login into your Clouways Server terminal.
